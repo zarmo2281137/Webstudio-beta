@@ -1,0 +1,42 @@
+.activity__photo-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .activity__photo-descr {
+    position: absolute;
+    bottom: 0;
+    padding: 27px 0;
+    background: rgba(47, 48, 58, 0.8);
+    width: 100%;
+  
+    color: #fff;
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+
+   .container {
+    width: 1200px;
+    margin: 0 auto;
+   }
+
+   .activity__photos {
+    display: flex;
+    gap: 30px;
+   }
+
+   * {
+    padding: 0;
+    margin: 0;
+   }
+
+   .photo-container {
+    display: flex;
+    justify-content: center;
+   }
